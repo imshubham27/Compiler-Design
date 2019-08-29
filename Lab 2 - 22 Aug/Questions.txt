@@ -1,0 +1,4 @@
+1. Count no. of words.
+2. Count Vowels, consonents and digits.
+3. Email id validation.
+4. Check substring or not.

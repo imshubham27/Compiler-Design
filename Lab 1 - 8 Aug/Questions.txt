@@ -1,0 +1,5 @@
+1. WAP to enter a word and check if it is a keyword or not(in C).
+2. Check if it is a valid identifier.
+3. Enter a sentence and check if it is a comment or not.
+4. Enter a valid expression, and display how many operators and operands are
+   present.
