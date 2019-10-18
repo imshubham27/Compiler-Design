@@ -8,6 +8,7 @@
 int yywrap(){return 1;}
 int main()
 {
+yyin = fopen("testidentifier.txt","r");
 yylex();
 return 0;
 }

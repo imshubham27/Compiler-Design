@@ -9,6 +9,7 @@
 int yywrap(){return 1;}
 int main()
 {
+yyin = fopen("testalpha.txt","r");
 yylex();
 return 0;
 }

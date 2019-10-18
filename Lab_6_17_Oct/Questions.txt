@@ -1,0 +1,5 @@
+1.Check whether a number is even or odd.
+2.Check whether a number is prime or not.
+3.ENter a string & check if it is palindrome or not without using string function.
+4.Enter a string & check if it is a palindrome or not with using string function.
+5.Enter the number in words and output will be in digits

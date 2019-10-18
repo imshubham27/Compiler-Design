@@ -15,7 +15,8 @@ int dig_count=0;
 int yywrap(){return 1;}
 int main()
 {
-printf("Enter the string: ");
+//printf("Enter the string: ");
+yyin = fopen("testvowel.txt","r");
 yylex();
 printf("Number of vowels %d \n",vow_count);
 printf("Number of consonants %d \n",const_count);
