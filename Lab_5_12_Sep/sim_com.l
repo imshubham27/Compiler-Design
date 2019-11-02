@@ -10,7 +10,13 @@ int flag=1;
 . {;}
 %%
 
-main()
+
+int yywrap()
+{
+return 1;
+}
+
+int main()
 {
   printf("Enter the sentence: ");
   yylex();
@@ -19,11 +25,8 @@ main()
     printf("\n the given sentence is simple sentence\n");
   else
     printf("\n the given sentence is compound sentence\n");
+  return 0;
 }
 
 
-int yywrap()
-{
-return 1;
-}
 
